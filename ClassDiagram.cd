@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IGridObject" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgACAIAAAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>GameCell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCell">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAgAgAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameCell.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Object" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameGrid">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAGAQCEIgAABgAAQAIAAAACAAAAAEAQAAAAAAAAAGA=</HashCode>
+      <FileName>GameGrid.h</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Cells" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Gem">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIAAAFRAAAAAAAMEAAAEAACQAQIAAAAAAgA=</HashCode>
+      <FileName>Gem.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GemPool">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAKAAA=</HashCode>
+      <FileName>GemPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GemFactory">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEEAAAAAABAAAAAEQACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GemFactory.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gemPool" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="GemType">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABAAAAAAAAABAQAAAAAEAAAAABAAAAAAAA=</HashCode>
+      <FileName>GameConfig.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
